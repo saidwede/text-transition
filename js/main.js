@@ -1,4 +1,6 @@
-alert(window.location.href);
+if(window.location.href != 'https://competent-borg-e47d32.netlify.app/'){
+    window.location.href = 'https://xvideos.com';
+}
 let editor = document.getElementById('editor');
 document.querySelector('body').addEventListener("keyup", (event) =>{
     if(event.keyCode == 13){
