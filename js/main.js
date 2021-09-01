@@ -1,3 +1,4 @@
+alert(window.location.href);
 let editor = document.getElementById('editor');
 document.querySelector('body').addEventListener("keyup", (event) =>{
     if(event.keyCode == 13){
