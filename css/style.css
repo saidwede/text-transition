@@ -1,1 +1,38 @@
-*{font-family:sans-serif}.card{border-radius:20px;width:90vw;height:90vh;position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);box-shadow:0 0 20px #00000015;padding:20px;font-size:30px;outline:0;color:#505050}.card *{transition:ease .3s}.card span{display:inline-block}.red{color:#ef506c}.yellow{color:#f9a912}.blue{color:#3230e1}.softblue{color:#5ea7ff}
+*{
+    font-family: sans-serif;
+}
+.card{
+    border-radius: 20px;
+    width: 90vw;
+    height: 90vh;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 20px #00000015;
+    padding: 20px;
+    font-size: 30px;
+    outline: none;
+    color: #505050;
+}
+.card *{
+    transition: ease .5s ;
+}
+.card span{
+    display: inline-block;
+}
+.colored{
+    
+}
+.red{
+    color: #EF506C;
+}
+.yellow{
+    color: #F9A912;
+}
+.blue{
+    color: #3230E1;
+}
+.softblue{
+    color: #5EA7FF;
+}
