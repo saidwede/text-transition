@@ -18,8 +18,12 @@
 .card *{
     transition: ease .5s ;
 }
-.card span{
+.card > span{
     display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-flex;
+    justify-content: flex-end;
 }
 .colored{
     
