@@ -23,6 +23,7 @@
     overflow: hidden;
     white-space: nowrap;
     display: inline-flex;
+    flex-direction: column;
     justify-content: flex-start;
 }
 .colored{
